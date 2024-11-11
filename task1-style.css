@@ -1,0 +1,21 @@
+@keyframes bar-anim {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 110%;
+    }
+}
+
+.bar {
+    width: 400px;
+    height: 80px;
+    border: 4px solid orange;
+    overflow: hidden;
+}
+.bar-elem {
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+    animation: bar-anim 3s infinite linear;
+}

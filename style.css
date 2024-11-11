@@ -1,0 +1,28 @@
+nav {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+a {
+    text-decoration: none;
+    color: darksalmon;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(238, 2, 179);
+    animation: hover-anim 2s infinite alternate linear;
+}
+@keyframes hover-anim {
+    from {
+        color:rgb(0, 234, 255);        
+
+    }
+    to {
+        color:rgb(15, 6, 181);    
+
+    }
+}

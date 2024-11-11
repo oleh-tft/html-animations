@@ -1,0 +1,23 @@
+@keyframes grayscale {
+    from {
+        width: 128px;
+        height: 128px;
+        filter: grayscale();
+    }
+    to {
+        width: 256px;
+        height: 256px;
+        filter: none;
+    }
+}
+
+.hearts {
+    width: 128px;
+    height: 128px;
+    filter: grayscale();
+}
+
+.hearts:hover {
+    animation: grayscale 5s;
+    animation-fill-mode: forwards;
+}
